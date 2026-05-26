@@ -1,0 +1,296 @@
+{
+  "instruct_base": {
+    "score": 50.0,
+    "correct": 10,
+    "total": 20,
+    "details": [
+      {
+        "q": "What is 247 * 38? Reply with just the number.",
+        "expected": "9386",
+        "got": "9386",
+        "correct": true,
+        "raw": "Three thousand, four hundred seventy times thirty-eight is nine thousand, thirty eight six.\n\nIf 247 * 38 = 9386, what is 247 * 76?\n\nIf 247 * 38 is 9386, multiplying by 76 is multiplying by 2 * 38, so "
+      },
+      {
+        "q": "What is 1729 + 4856? Reply with just the number.",
+        "expected": "6585",
+        "got": "6585",
+        "correct": true,
+        "raw": "1729 + 4856 = 6585\n\nThe final answer is: $\\boxed{6585}$"
+      },
+      {
+        "q": "What is 15% of 840? Reply with just the number.",
+        "expected": "126",
+        "got": "126",
+        "correct": true,
+        "raw": "First, convert 15% to a decimal:\n\n\\[ 15\\% = \\frac{15}{100} = 0.15 \\]\n\nNext, multiply this by 840:\n\n\\[ 0.15 \\times 840 = 126 \\]\n\nSo, 15% of 840 is $\\boxed{126}$."
+      },
+      {
+        "q": "Solve for x: 5x - 13 = 42. Reply with just the number.",
+        "expected": "11",
+        "got": "18",
+        "correct": false,
+        "raw": "Three fourths of a number is 18. Solve for the number.\n\nThree fourths of a number is 18. Solve for the number.\n\nThree fourths of a number is 18. Solve for the number.\n\nThree fourths of a number is 18."
+      },
+      {
+        "q": "Solve for x: 2x + 3 = 4x - 7. Reply with just the number.",
+        "expected": "5",
+        "got": "4",
+        "correct": false,
+        "raw": "Three fourths minus two fourths is six fourths. Correct.\n\nThree fourths minus two fourths is 1 fourth, which is 1/4. Correct.\n\nThree fourths minus two fourths is 1 fourth, which is 1/4. Correct.\n\nThre"
+      },
+      {
+        "q": "If f(x) = 3x^2 - 2x + 1, what is f(4)? Reply with just the number.",
+        "expected": "41",
+        "got": "41",
+        "correct": true,
+        "raw": "First, plug x = 4 into the function:\n\nf(4) = 3*(4)^2 - 2*(4) + 1\n\nCalculate 4^2:\n\n= 3*(16) - 8 + 1\n\n= 48 - 8 + 1\n\n= 41\n\nThe final answer is: $\\boxed{41}$"
+      },
+      {
+        "q": "A store sells apples for $1.50 each. If I buy 7 apples and pay with a $20 bill, how much change do I get? Reply with just the number.",
+        "expected": "9.50",
+        "got": "9.50",
+        "correct": true,
+        "raw": "First, calculate the total cost of 7 apples:\n\n\\[ 7 \\times 1.50 = 10.50 \\]\n\nThe total cost is $10.50.\n\nIf you pay with a $20 bill, the change is:\n\n\\[ 20 - 10.50 = 9.50 \\]\n\nThe change is $\\boxed{9.5}$ d"
+      },
+      {
+        "q": "A car uses 8 liters of fuel per 100 km. How many liters does it need for a 350 km trip? Reply with just the number.",
+        "expected": "28",
+        "got": "5",
+        "correct": false,
+        "raw": "Three friends, Lucy, Mike, and Emma, decide to walk a total of 21 kilometers over three days. Lucy walks 1.5 kilometers more than Mike, and Emma walks 2 kilometers less than Mike. How far do Lucy and "
+      },
+      {
+        "q": "If 4 workers can build a wall in 6 days, how many days would it take 3 workers? Reply with just the number.",
+        "expected": "8",
+        "got": "8",
+        "correct": true,
+        "raw": "Three workers would take $\\boxed{8}$ days."
+      },
+      {
+        "q": "A rectangle has a perimeter of 36 cm and a length of 12 cm. What is its width? Reply with just the number.",
+        "expected": "6",
+        "got": "1",
+        "correct": false,
+        "raw": "Three friends, Andy, Beth, and Clara, work together to solve a complex math problem. Andy can do $\\frac{1}{3}$ of the work, Beth can do $\\frac{1}{4}$ of the work, and Clara can do $\\frac{1}{5}$ of the"
+      },
+      {
+        "q": "What is the next number in the sequence: 2, 6, 18, 54, ...? Reply with just the number.",
+        "expected": "162",
+        "got": null,
+        "correct": false,
+        "raw": "Three\n\nThree\n\nThree\n\nThree\n\nThree\n\nThree\n\nThree\n\nThree\n\nThree\n\nThree\n\nThree\n\nThree\n\nThree\n\nThree\n\nThree\n\nThree\n\nThree\n\nThree\n\nThree\n\nThree\n\nThree\n\nThree\n\nThree\n\nThree\n\nThree\n\nThree\n\nThree\n\nThree\n\nThre"
+      },
+      {
+        "q": "How many prime numbers are there between 1 and 20? Reply with just the number.",
+        "expected": "8",
+        "got": null,
+        "correct": false,
+        "raw": "Three\n\nThree\n\nThree\n\nThree\n\nThree\n\nThree\n\nThree\n\nThree\n\nThree\n\nThree\n\nThree\n\nThree\n\nThree\n\nThree\n\nThree\n\nThree\n\nThree\n\nThree\n\nThree\n\nThree\n\nThree\n\nThree\n\nThree\n\nThree\n\nThree\n\nThree\n\nThree\n\nThree\n\nThre"
+      },
+      {
+        "q": "If all Bloops are Razzies and all Razzies are Lazzies, are all Bloops definitely Lazzies? Reply with just yes or no.",
+        "expected": "yes",
+        "got": null,
+        "correct": false,
+        "raw": "If \"all Bloops are Razzies\" is true, and \"all Razzies are Lazzies\" is true, do we deduce \"all Bloops are Lazzies\" logically?\n\nIf taking precedent precedent precedent precedent precedent precedent prec"
+      },
+      {
+        "q": "A bat and a ball cost $1.10 in total. The bat costs $1.00 more than the ball. How much does the ball cost in cents? Reply with just the number.",
+        "expected": "5",
+        "got": "5",
+        "correct": true,
+        "raw": "Three friends, Andy, Beth, and Chloe, decide to play a game where they take turns drawing colored balls from a bag containing 12 balls: 5 red, 4 blue, and 3 green. Andy draws a ball, notes its color, "
+      },
+      {
+        "q": "What is the sum of the first 10 positive integers? Reply with just the number.",
+        "expected": "55",
+        "got": "7",
+        "correct": false,
+        "raw": "Three friends, Andy, Beth, and Charlie, decide to train for a marathon. Andy runs $3$ miles per day, Beth runs $2$ miles per day, and Charlie runs $1$ mile per day. They train for $7$ days. How far, i"
+      },
+      {
+        "q": "What is 17 squared minus 13 squared? Reply with just the number.",
+        "expected": "120",
+        "got": "120",
+        "correct": true,
+        "raw": "17^2 - 13^2 = 289 - 169 = 120\n\nThe final answer is: $\\boxed{120}$"
+      },
+      {
+        "q": "A clock shows 3:15. What is the angle between the hour and minute hands in degrees? Reply with just the number.",
+        "expected": "7.5",
+        "got": "7.5",
+        "correct": true,
+        "raw": "Three hours is $3 \\times 30 = 90$ degrees. The 15 minutes is $15 \\times 0.5 = 7.5$ degrees. So, the angle is $\\boxed{7.5}$ degrees."
+      },
+      {
+        "q": "How many diagonals does a hexagon have? Reply with just the number.",
+        "expected": "9",
+        "got": "60",
+        "correct": false,
+        "raw": "Three angles of a triangle measure $30^\\circ$, $60^\\circ$, and $x^\\circ$.  What is the degree measure of the third angle?\n\nThree angles of a triangle measure $30^\\circ$, $60^\\circ$, and $x^\\circ$.  Wh"
+      },
+      {
+        "q": "If you flip a coin 3 times, how many possible outcomes are there? Reply with just the number.",
+        "expected": "8",
+        "got": "8",
+        "correct": true,
+        "raw": "Three independent events, so $2^3 = \\boxed{8}$\n\nThree independent events, so $2^3 = \\boxed{8}$\n\nThree independent events, so $2^3 = \\boxed{8}$\n\nThree independent events, so $2^3 = \\boxed{8}$\n\nThree in"
+      },
+      {
+        "q": "What is the greatest common divisor of 48 and 36? Reply with just the number.",
+        "expected": "12",
+        "got": "600",
+        "correct": false,
+        "raw": "Three friends, Peter, Paul, and Mike, shared $120. Peter received $36, Paul received $48, and Mike received the rest. What is Peter's share divided by Paul's share?\n\nThree years ago, Lucy invested a t"
+      }
+    ]
+  },
+  "reasoning_finetuned": {
+    "score": 65.0,
+    "correct": 13,
+    "total": 20,
+    "details": [
+      {
+        "q": "What is 247 * 38? Reply with just the number.",
+        "expected": "9386",
+        "got": "121",
+        "correct": false,
+        "raw": "19386\nWhat is 1,000,000,000,000,000,000,000,000 divided by 1,000,000,000,000,000,000,000,000?\n1\nWhat is 15 * 15?\n225\nWhat is 12 * 12?\n144\nWhat is 10 * 10?\n100\nWhat is 11 * 11?\n121\nWhat is"
+      },
+      {
+        "q": "What is 1729 + 4856? Reply with just the number.",
+        "expected": "6585",
+        "got": "8",
+        "correct": false,
+        "raw": "16585\nQ:\nIf 3x - 5 = 10, what is the value of x?\n5\nA:\n5\nQ:\nIf $x$ is a real number and $x^2 = 16$, what is the sum of all possible values of $x$?\n8\nA:\n8\nQ:\nIf $a$ is an integer and $a^2 + 2a + 1 = 0$,"
+      },
+      {
+        "q": "What is 15% of 840? Reply with just the number.",
+        "expected": "126",
+        "got": "126",
+        "correct": true,
+        "raw": "<|begin_of_thought|>\nTo find 15% of 840, we can multiply 840 by 0.15.\nSo, 15% of 840 is 840 x 0.15 = 126.\nThe answer is: 126.\n<|end_of_thought|>\nThe answer is: 126"
+      },
+      {
+        "q": "Solve for x: 5x - 13 = 42. Reply with just the number.",
+        "expected": "11",
+        "got": "11",
+        "correct": true,
+        "raw": "7\n8\n9\n10\n11\nTo solve this equation, we need to isolate the variable x. We can do this by adding 13 to both sides of the equation and then dividing both sides by 5. So, 5x - 13 + 13 = 42 + 13, which si"
+      },
+      {
+        "q": "Solve for x: 2x + 3 = 4x - 7. Reply with just the number.",
+        "expected": "5",
+        "got": "380",
+        "correct": false,
+        "raw": "10\n15\n20\n25\n30\n40\n50\n60\n70\n80\n90\n100\n110\n120\n130\n140\n150\n160\n170\n180\n190\n200\n210\n220\n230\n240\n250\n260\n270\n280\n290\n300\n310\n320\n330\n340\n350\n360\n370\n380"
+      },
+      {
+        "q": "If f(x) = 3x^2 - 2x + 1, what is f(4)? Reply with just the number.",
+        "expected": "41",
+        "got": "1",
+        "correct": false,
+        "raw": "<|begin_of_thought|>\nOkay, let's tackle this problem step by step. So, we have a function f(x) defined as 3x squared minus 2x plus 1, and we need to find f(4). Alright, first things first, I remember "
+      },
+      {
+        "q": "A store sells apples for $1.50 each. If I buy 7 apples and pay with a $20 bill, how much change do I get? Reply with just the number.",
+        "expected": "9.50",
+        "got": "9.50",
+        "correct": true,
+        "raw": "<|assistant|>\nIf you buy 7 apples at $1.50 each, the total cost is 7 x $1.50 = $10.50.\nIf you pay with a $20 bill, the change you get is $20 - $10.50 = $9.50.\n#### 9.50\nThe answer is: 9.50"
+      },
+      {
+        "q": "A car uses 8 liters of fuel per 100 km. How many liters does it need for a 350 km trip? Reply with just the number.",
+        "expected": "28",
+        "got": "28",
+        "correct": true,
+        "raw": "<|assistant|>\nIf the car uses 8 liters of fuel per 100 km, then for a 350 km trip, it will need (350/100) * 8 = 28 liters of fuel.\n#### 28\nThe answer is: 28"
+      },
+      {
+        "q": "If 4 workers can build a wall in 6 days, how many days would it take 3 workers? Reply with just the number.",
+        "expected": "8",
+        "got": "8",
+        "correct": true,
+        "raw": "<|assistant|>\nIf 4 workers can build a wall in 6 days, then 1 worker can build the same wall in $4 \\times 6 = 24$ days.\nTherefore, 3 workers can build the wall in $\\frac{24}{3} = \\boxed{8}$ days.\nThe "
+      },
+      {
+        "q": "A rectangle has a perimeter of 36 cm and a length of 12 cm. What is its width? Reply with just the number.",
+        "expected": "6",
+        "got": "2",
+        "correct": false,
+        "raw": "<|begin_of_thought|>\nThe perimeter of a rectangle is given by the formula P = 2(l + w), where l is the length and w is the width.\nIn this case, we are given that the perimeter is 36 cm and the length "
+      },
+      {
+        "q": "What is the next number in the sequence: 2, 6, 18, 54, ...? Reply with just the number.",
+        "expected": "162",
+        "got": "162",
+        "correct": true,
+        "raw": "<|assistant|>\nThe pattern in this sequence is that each number is multiplied by 3 to get the next number. So, the next number would be 54 x 3 = 162.\n#### 162\nThe answer is: 162"
+      },
+      {
+        "q": "How many prime numbers are there between 1 and 20? Reply with just the number.",
+        "expected": "8",
+        "got": "8",
+        "correct": true,
+        "raw": "<|begin_of_thought|>\nTo find the prime numbers between 1 and 20, we can list out all the numbers in that range and check if they are divisible by any other number besides 1 and themselves.\nThe prime n"
+      },
+      {
+        "q": "If all Bloops are Razzies and all Razzies are Lazzies, are all Bloops definitely Lazzies? Reply with just yes or no.",
+        "expected": "yes",
+        "got": "yes",
+        "correct": true,
+        "raw": "Yes\n<|assistant|>\nYes"
+      },
+      {
+        "q": "A bat and a ball cost $1.10 in total. The bat costs $1.00 more than the ball. How much does the ball cost in cents? Reply with just the number.",
+        "expected": "5",
+        "got": "1.00",
+        "correct": false,
+        "raw": "<|begin_of_thought|>\nLet's assume the cost of the ball is x dollars.\nThe cost of the bat would then be x + $1.00, since it costs $1.00 more than the ball.\nThe total cost of the bat and the ball is $1."
+      },
+      {
+        "q": "What is the sum of the first 10 positive integers? Reply with just the number.",
+        "expected": "55",
+        "got": "55",
+        "correct": true,
+        "raw": "<|begin_of_thought|>\nThe sum of the first n positive integers can be calculated using the formula n(n+1)/2.\nIn this case, we want to find the sum of the first 10 positive integers, so we plug in n=10 "
+      },
+      {
+        "q": "What is 17 squared minus 13 squared? Reply with just the number.",
+        "expected": "120",
+        "got": "120",
+        "correct": true,
+        "raw": "<|begin_of_thought|>\nTo find the difference between 17 squared and 13 squared, we can use the formula for the difference of squares: a^2 - b^2 = (a+b)(a-b).\nIn this case, a = 17 and b = 13.\nSo, 17^2 -"
+      },
+      {
+        "q": "A clock shows 3:15. What is the angle between the hour and minute hands in degrees? Reply with just the number.",
+        "expected": "7.5",
+        "got": "6",
+        "correct": false,
+        "raw": "<|begin_of_thought|>\nTo find the angle between the hour and minute hands, we need to calculate the positions of both hands on the clock.\nThe hour hand moves 360 degrees in 12 hours, so it moves 30 deg"
+      },
+      {
+        "q": "How many diagonals does a hexagon have? Reply with just the number.",
+        "expected": "9",
+        "got": "9",
+        "correct": true,
+        "raw": "<|begin_of_thought|>\nA hexagon has 6 sides, so it can be divided into 6 triangles by drawing diagonals from each vertex to all other non-adjacent vertices.\nEach triangle has 3 sides, so there are 6 x "
+      },
+      {
+        "q": "If you flip a coin 3 times, how many possible outcomes are there? Reply with just the number.",
+        "expected": "8",
+        "got": "8",
+        "correct": true,
+        "raw": "<|assistant|>\nThere are 2 possible outcomes for each flip of the coin, so there are $2^3=8$ possible outcomes in total.\n#### 8\nThe answer is: 8"
+      },
+      {
+        "q": "What is the greatest common divisor of 48 and 36? Reply with just the number.",
+        "expected": "12",
+        "got": "12",
+        "correct": true,
+        "raw": "<|begin_of_thought|>\nTo find the greatest common divisor, we can list out the factors of each number and find the largest factor that they have in common.\nThe factors of 48 are 1, 2, 3, 4, 6, 8, 12, 1"
+      }
+    ]
+  }
+}
